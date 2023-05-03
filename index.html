@@ -1,0 +1,65 @@
+<!doctype html>
+<div class="cnontain">
+  <html>
+  <head>
+  <meta charset="utf-8">
+  <title>Untitled Document</title>
+  <style type="text/css">
+	
+	  .box1 {
+    width: 200px;
+    height: 200px;
+    background-color: #E3686A;
+    -webkit-transition: all 500ms ease-in-out 0ms;
+    -o-transition: all 500ms ease-in-out 0ms;
+    transition: all 500ms ease-in-out 0ms;
+}
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: #7CBDC8;
+    -webkit-transition: all 800ms ease-in-out 0s;
+    -o-transition: all 800ms ease-in-out 0s;
+    transition: all 800ms ease-in-out 0s;
+}
+.box1:hover {
+    background-color: #77E8A7;
+    width: 200px;
+    height: 200px;
+	transform:scale(1.2, 0.8);
+}
+.box2:hover {
+    background-color: #E4E992;
+	transform: rotate(20deg);
+}
+.box3 {
+    width: 200px;
+    height: 200px;
+    background-color: #D5D193;
+    -webkit-transition: all 800ms 0s;
+    -o-transition: all 800ms 0s;
+    transition: all 800ms 0s;
+}
+.box3:hover {
+    background-color: #CBA8E5;
+	transform:translate(10px, 15px);
+}
+.cnontain {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+  </style>
+  </head>
+    
+  <body> 
+  <div class="box1"></div>
+  <div class="box2"></div>
+  <div class="box3"></div>
+  </body>
+  </html>
+</div>
